@@ -5,16 +5,16 @@ kramdown:
   syntax_highlighter: rouge
 highlighter: rouge
 plugins_dir: _plugins
-baseurl: /{project_name}
+baseurl: /xls-rs
 
-title: "{project_name}"
-description: "Use {project_name} from 4D"
+title: "xls-rs"
+description: "Use xls-rs from 4D"
 logo: "/assets/logo.png"   # optional
 show_downloads: true       # controls the download links in header
 github:
   is_user_page: true
   owner_url: "https://github.com/miyako"
-  repository_url: "https://github.com/miyako/{project_name}"
+  repository_url: "https://github.com/miyako/xls-rs"
   is_project_page: false
 
 exclude:
@@ -23,6 +23,6 @@ exclude:
   - "LICENSE"
   - "README.md"
   - "Gemfile"
-  - "{project_name}/userPreferences.*"
-  - "{project_name}/Libraries/*"
-  - "{project_name}/Data/*"
+  - "xls-rs/userPreferences.*"
+  - "xls-rs/Libraries/*"
+  - "xls-rs/Data/*"

@@ -7,8 +7,8 @@ If ($params=Null:C1517)
 	
 Else 
 	
-	var ${cli_name} : cs:C1710.{cli_name}
-	${cli_name}:=cs:C1710.{cli_name}.new(cs:C1710._{cli_name}_Controller)
+	var $xls_rs : cs:C1710.xls_rs
+	$xls_rs:=cs:C1710.xls_rs.new(cs:C1710._xls_rs_Controller)
 	
 	$URL:="https://resources-download.4d.com/release/20.x/20.5/latest/mac/tool4d_arm64.tar.xz"
 	$out:=Folder:C1567(fk desktop folder:K87:19).file("tool4d_arm64.tar.xz")
@@ -28,6 +28,6 @@ context object can have 2 properties: .data, .file
 it can be 4D.File, 4D.Blob, Blob, or Text
 */
 	$tasks.push([$URL; "-o"; $out; "-L"; "-k"; {data: $out; file: Null:C1517}])
-	$results:=${cli_name}.execute($tasks; $events)
+	$results:=$xls_rs.execute($tasks; $events)
 	
 End if 
