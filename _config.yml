@@ -1,0 +1,28 @@
+theme: jekyll-theme-minimal
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+highlighter: rouge
+plugins_dir: _plugins
+baseurl: /xls-rs
+
+title: "xls-rs"
+description: "Use xls-rs from 4D"
+logo: "/assets/logo.png"   # optional
+show_downloads: true       # controls the download links in header
+github:
+  is_user_page: true
+  owner_url: "https://github.com/miyako"
+  repository_url: "https://github.com/miyako/xls-rs"
+  is_project_page: false
+
+exclude:
+  - "vendor"
+  - "resources"
+  - "LICENSE"
+  - "README.md"
+  - "Gemfile"
+  - "xls-rs/userPreferences.*"
+  - "xls-rs/Libraries/*"
+  - "xls-rs/Data/*"
