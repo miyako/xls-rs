@@ -2,6 +2,7 @@
   "name": "xls-rs",
   "description": "xls-rs",
   "author": [
+    "Ying Kit WONG (@yingkitw)",
     "Keisuke Miyako <keisuke.miyako@4D.com>"
   ],
   "license": "MIT",
