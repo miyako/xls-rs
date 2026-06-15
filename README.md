@@ -13,6 +13,19 @@
 
 #### Usage
 
+Create a project method for callback (this is optional)
+
+```4d
+// OnData
+#DECLARE($worker : 4D.SystemWorker; $params : Object)
+
+var $text : Text
+$text:=$worker.response
+$file:=$params.context
+
+OPEN URL($file.platformPath)
+```
+
 Instantiate `cs.xls_rs.xls_rs` and pass one or more task objects:
 
 ```4d
