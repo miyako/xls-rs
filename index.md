@@ -7,7 +7,7 @@ layout: default
 [![license](https://img.shields.io/github/license/miyako/xls-rs)](LICENSE)
 ![downloads](https://img.shields.io/github/downloads/miyako/xls-rs/total)
  
-# Use xls-rs from 4D
+# Use [xls-rs](https://github.com/yingkitw/xls-rs/) from 4D
 
 ```4d
 #DECLARE($params : Object)
